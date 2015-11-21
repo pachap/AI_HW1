@@ -17,6 +17,8 @@ class BombermanProblem(search.Problem):
         that yields the successors one at a time, rather than building them
         all at once. Iterators will work fine within the framework."""
         return None
+
+OMER
     
     def h(self, node):
         """ This is the heuristic. It get a node (not a state)
